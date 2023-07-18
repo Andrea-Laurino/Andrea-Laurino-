@@ -1,0 +1,28 @@
+.App {
+	text-align: center;
+	width: min(90%, 140rem);
+	margin: 0 auto;
+	height: 100%;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+#root {
+	margin: 0;
+}
+*,
+*:before,
+:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+	line-height: 2;
+	min-height: 100%;
+	flex-direction: column;
+}
