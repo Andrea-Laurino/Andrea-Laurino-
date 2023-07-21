@@ -21,7 +21,7 @@ export const SobreMi = () => {
 				<Card style={{ width: '90rem', height: '55rem', border: 'none' }}>
 					<Card.Body>
 						<Card.Title className="card-titulo">¿Quien Soy?</Card.Title>
-						<Card.Text>
+						<Card.Text className="description-card">
 							Mi nombre es Andrea y tengo 36 años. Desde hace 1 año, me he
 							estado dedicando al estudio de programación web Full Stack.
 							Actualmente, me encuentro en la etapa final de mi carrera, y estoy

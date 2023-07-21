@@ -21,6 +21,10 @@ div.me-auto.navbar-nav {
 	background-size: cover;
 }
 
+.logoAndrea {
+	margin-right: 10rem;
+	filter: drop-shadow(0 4px 8px #ceedf5a7);
+}
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
 	padding: 0;
 	background-color: #1b263bb9 !important;

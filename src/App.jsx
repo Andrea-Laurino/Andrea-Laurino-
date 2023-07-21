@@ -3,8 +3,9 @@ import { NavBar } from './components/NavBar/navBar';
 import { Inicio } from './components/Inicio/inicio';
 import { SobreMi } from './components/SobreMi/sobreMi';
 import { Skills } from './components/Skills/skills';
-//import { Proyectos } from './components/Proyectos/proyectos';
-//import { Contacto } from './components/Contacto/contacto';
+import { Proyectos } from './components/Proyectos/proyectos';
+import { Certificados } from './components/Certificados/certificados';
+import { Contacto } from './components/Contacto/contacto';
 import { DarkModeProvider } from '../src/Context/DarkModeContext';
 import './App.css';
 
@@ -16,8 +17,9 @@ function App() {
 				<Inicio />
 				<SobreMi />
 				<Skills />
-				{/*<Proyectos />
-		<Contacto /> */}
+				<Proyectos />
+				<Certificados />
+				<Contacto />
 			</DarkModeProvider>
 		</>
 	);

@@ -53,12 +53,21 @@ export const NavBar = () => {
 							<Nav.Link onClick={() => setExpanded(false)} href="#proyectos">
 								Proyectos
 							</Nav.Link>
+							<Nav.Link onClick={() => setExpanded(false)} href="#certificados">
+								Certificados
+							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#contacto">
 								Contacto
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
+				<img
+					className="logoAndrea"
+					src="/images/logoAndrea-removebg-preview.png"
+					style={{ width: '9rem', height: '5rem' }}
+					alt="Logo Andrea"
+				/>
 			</Navbar>
 		</section>
 	);
