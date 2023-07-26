@@ -29,7 +29,12 @@ export const Proyectos = () => {
 						<Card.Title className="card-titulo">
 							Proyecto final Desarrollo Web:
 						</Card.Title>
-						<Card.Title className="card-titulo">ER-Translation</Card.Title>
+						<Card.Title
+							className="card-titulo"
+							style={{ fontWeight: 400, fontStyle: 'italic' }}
+						>
+							ER-Translation
+						</Card.Title>
 						<Card.Text>
 							En todo el proyecto es Responsive. Se aplico SEO, SASS, flex, Grid
 							Y Bootstrap en distintas secciones del proyecto.
@@ -54,7 +59,10 @@ export const Proyectos = () => {
 						<Card.Title className="card-titulo">
 							Proyecto final JavaScript:
 						</Card.Title>
-						<Card.Title className="card-titulo">
+						<Card.Title
+							className="card-titulo"
+							style={{ fontWeight: 400, fontStyle: 'italic' }}
+						>
 							Vivero BEL PAESSAGIO
 						</Card.Title>
 						<Card.Text>
@@ -81,7 +89,12 @@ export const Proyectos = () => {
 						<Card.Title className="card-titulo">
 							Proyecto final React.js:
 						</Card.Title>
-						<Card.Title className="card-titulo">Studio Chic</Card.Title>
+						<Card.Title
+							className="card-titulo"
+							style={{ fontWeight: 400, fontStyle: 'italic' }}
+						>
+							Studio Chic
+						</Card.Title>
 						<Card.Text>
 							Es un ecommerce hecho con React.js, Vite y Firebase (Auth,
 							Firebase). Como framework de estilo utilice React-bootstrap.
@@ -134,7 +147,9 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
+			</div>
 
+			<div className="cards" id="card-proyectos">
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -157,8 +172,6 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-			</div>
-			<div className="cards" id="card-proyectos">
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">

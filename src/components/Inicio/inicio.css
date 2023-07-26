@@ -97,7 +97,7 @@ button.navbar-toggler {
 }
 
 /* Responsive */
-
+/* 
 @media (max-width: 1360px) {
 	.inicio div img {
 		margin-left: 10rem;
@@ -132,18 +132,12 @@ button.navbar-toggler {
 		font-size: 3rem;
 		width: 340px;
 	}
-}
+} */
 
 @media (max-width: 1024px) {
 	.inicio div img {
 		margin-left: 3rem;
 		width: 220px;
-	}
-}
-
-@media (max-width: 850px) {
-	.inicio div img {
-		margin-left: 1rem;
 	}
 }
 
@@ -194,11 +188,12 @@ button.navbar-toggler {
 	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
 	.soy,
 	.hola {
 		font-size: 5rem;
 		margin-bottom: 1rem;
+		margin-top: 1rem;
 	}
 
 	.titulo {

@@ -159,23 +159,8 @@ a#cv:hover {
 /* Responsive */
 @media (max-width: 1024px) {
 	#sobre-mi {
-		margin-top: 85.5rem;
-		padding-bottom: 84.5rem;
-	}
-}
-
-@media (max-width: 991px) {
-	section div.cards {
-		display: block;
-		margin-top: 2rem;
-	}
-
-	section div.card {
-		margin: 5rem;
-	}
-
-	a#cv {
-		margin-bottom: 0rem;
+		margin-top: 88.5rem;
+		padding-bottom: 90.5rem;
 	}
 }
 
@@ -183,7 +168,7 @@ a#cv:hover {
 	#sobre-mi div.card-body,
 	#sobre-mi div.card {
 		width: 50rem !important;
-		height: 62rem !important;
+		height: 83rem !important;
 	}
 
 	#sobre-mi p.card-text {
@@ -194,12 +179,11 @@ a#cv:hover {
 		margin: 5rem 0rem;
 	}
 	#sobre-mi {
-		margin-top: 95rem;
-		padding-bottom: 76rem;
-		height: 124.2vh;
+		margin-top: 110.5rem;
+		padding-bottom: 135rem;
 	}
 	section .titulo-sobre-mi {
-		margin-top: 11rem;
+		margin-top: 20rem;
 	}
 }
 
@@ -207,17 +191,20 @@ a#cv:hover {
 	#sobre-mi div.card-body,
 	#sobre-mi div.card {
 		width: 25rem !important;
-		height: 115rem !important;
+		height: 100rem !important;
 	}
-
 	section.sobre-mi {
 		top: 75%;
 		padding-top: 10rem;
 	}
 	#sobre-mi {
-		margin-top: 86rem;
+		margin-top: 118rem;
+		padding-bottom: 150rem;
 	}
 	section .titulo-sobre-mi {
 		margin-top: 20rem;
+	}
+	.description-card {
+		font-size: 1.5rem !important;
 	}
 }

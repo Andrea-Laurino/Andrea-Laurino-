@@ -57,25 +57,27 @@ section .titulo-skills {
 		margin-top: 207rem;
 	}
 	#skills {
-		margin-top: 168.2rem;
+		margin-top: 185.2rem;
 	}
 }
 
 @media (max-width: 768px) {
 	#skills {
-		margin-top: 222.8rem;
-		padding-bottom: 146rem;
-		height: 93vh;
+		margin-top: 300rem;
+		padding-bottom: 238rem;
 	}
 
 	section .titulo-skills {
-		margin-top: 9rem;
+		margin-top: 17rem;
 	}
 }
 
 @media (max-width: 425px) {
-	section.skills {
-		top: 100%;
-		padding-top: 15rem;
+	#skills {
+		margin-top: 355.5rem;
+		padding-bottom: 319rem;
+	}
+	section div.cards {
+		flex-direction: column;
 	}
 }
