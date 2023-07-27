@@ -107,6 +107,28 @@ export const Proyectos = () => {
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
+							<a href="https://andrea-laurino.vercel.app/">Web</a>
+							<a href="https://github.com/Andrea-Laurino/Andrea-Laurino-">
+								GitHub
+							</a>
+						</div>
+						<img
+							style={{ height: '15rem' }}
+							src="/images/Proyectos/Porfolio.jpg"
+							className="card-img-top"
+							alt="porfolio personal"
+						></img>
+						<Card.Title className="card-titulo">Porfolio Personal</Card.Title>
+						<Card.Text>
+							Este proyecto se realizo con React.js, Vite, Bootstrap React,
+							Sweet Alert2, React-icon y animates.css.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+
+				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+					<Card.Body>
+						<div className="enlaces">
 							<a href="https://juego-dino-rex.vercel.app/">Web</a>
 							<a href="https://github.com/Andrea-Laurino/JuegoDinoRex">
 								GitHub
