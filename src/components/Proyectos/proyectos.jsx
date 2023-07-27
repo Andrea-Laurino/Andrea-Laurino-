@@ -114,7 +114,7 @@ export const Proyectos = () => {
 						</div>
 						<img
 							style={{ height: '15rem' }}
-							src="/images/Proyectos/laptopDevice-instagram.png"
+							src="/images/Proyectos/DinoChrome.png"
 							className="card-img-top"
 							alt="Clon de Instagram"
 						></img>
@@ -136,7 +136,7 @@ export const Proyectos = () => {
 						</div>
 						<img
 							style={{ height: '15rem' }}
-							src="/images/Proyectos/DinoChrome.png"
+							src="/images/Proyectos/laptopDevice-instagram.png"
 							className="card-img-top"
 							alt="Clon de Instagram"
 						></img>
