@@ -1,6 +1,6 @@
 div.me-auto.navbar-nav {
 	gap: 50px;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin: 0 auto;
 	padding: 1rem;
 	font-weight: 400;
@@ -104,15 +104,15 @@ span.navbar-toggler-icon {
 	filter: drop-shadow(2px 2px 5px #b4d1d3);
 }
 .custom-form-check .form-switch {
-	width: 60px; /* Ancho personalizado */
-	height: 32px; /* Alto personalizado */
+	width: 60px;
+	height: 32px;
 }
 
 .custom-form-check .form-switch-handle {
-	width: 28px; /* Ancho del control deslizante personalizado */
-	height: 28px; /* Alto del control deslizante personalizado */
-	top: 2px; /* Posición vertical personalizada */
-	left: 2px; /* Posición horizontal personalizada */
+	width: 28px;
+	height: 28px;
+	top: 2px;
+	left: 2px;
 }
 .form-switch .form-check-input {
 	width: 2.3em;
@@ -130,9 +130,6 @@ span.navbar-toggler-icon {
 	}
 }
 @media (max-width: 1024px) {
-	nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
-		width: 99%;
-	}
 	div.me-auto.navbar-nav {
 		gap: 31px;
 	}

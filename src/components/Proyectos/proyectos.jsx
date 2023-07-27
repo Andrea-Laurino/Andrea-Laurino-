@@ -8,7 +8,7 @@ export const Proyectos = () => {
 	return (
 		<section className={darkMode ? 'bg-dark' : 'bg-light'} id="proyectos">
 			<div className="titulo-proyectos">
-				<h2>PROYECTOS</h2>
+				<h2>PROJECTS </h2>
 			</div>
 
 			<div className="cards" id="card-proyectos">

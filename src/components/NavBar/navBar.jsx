@@ -42,7 +42,7 @@ export const NavBar = () => {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto">
 							<Nav.Link onClick={() => setExpanded(false)} href="#inicio">
-								Inicio
+								Home
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#sobre-mi">
 								About Me
@@ -51,13 +51,13 @@ export const NavBar = () => {
 								Skills
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#proyectos">
-								Proyectos
+								Projects
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#certificados">
-								Certificados
+								Certificates
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#contacto">
-								Contacto
+								Contact
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
