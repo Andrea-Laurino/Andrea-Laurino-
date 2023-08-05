@@ -128,11 +128,11 @@ p.card-text {
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#proyectos {
-		margin-top: 451rem;
-		padding-bottom: 228rem;
+		margin-top: 493rem;
+		padding-bottom: 292rem;
 	}
 	#card-proyectos {
-		height: 600px;
+		height: 800px;
 	}
 	#proyectos .cards img {
 		width: 200px;

@@ -43,7 +43,7 @@ section .title-contacto {
 }
 
 .formulario {
-	width: 40%;
+	width: 60%;
 	font-size: 20px;
 	font-weight: 600;
 	color: #0d1b2a;
@@ -59,7 +59,7 @@ section .title-contacto {
 }
 
 .formulario textarea {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #formulario button {
@@ -198,7 +198,7 @@ section .title-contacto {
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#contacto {
-		margin-top: 839rem;
+		margin-top: 915rem;
 		padding-bottom: 110rem;
 	}
 	.title-contacto h2 {

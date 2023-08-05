@@ -46,8 +46,8 @@ section .titulo-certificados {
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#certificados {
-		margin-top: 675rem;
-		padding-bottom: 220rem;
+		margin-top: 750rem;
+		padding-bottom: 222rem;
 	}
 	section .titulo-certificados {
 		margin: 10rem 0;

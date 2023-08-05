@@ -63,8 +63,8 @@ section .titulo-skills {
 
 @media (max-width: 768px) {
 	#skills {
-		margin-top: 300rem;
-		padding-bottom: 238rem;
+		margin-top: 263rem;
+		padding-bottom: 164rem;
 	}
 
 	section .titulo-skills {
