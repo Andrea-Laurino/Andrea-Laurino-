@@ -10,7 +10,6 @@ export const Proyectos = () => {
 			<div className="titulo-proyectos">
 				<h2>PROJECTS </h2>
 			</div>
-
 			<div className="cards" id="card-proyectos">
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
@@ -36,12 +35,11 @@ export const Proyectos = () => {
 							ER-Translation
 						</Card.Title>
 						<Card.Text>
-							En todo el proyecto es Responsive. Se aplico SEO, SASS, flex, Grid
-							Y Bootstrap en distintas secciones del proyecto.
+							En este proyecto, se aplico SEO, SASS, flex, Grid Y Bootstrap en
+							distintas secciones del proyecto. Es un proyecto responsive.
 						</Card.Text>
 					</Card.Body>
 				</Card>
-
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -66,12 +64,12 @@ export const Proyectos = () => {
 							Vivero BEL PAESSAGIO
 						</Card.Title>
 						<Card.Text>
-							Es un ecommerce hecho con JavaScript puro, utilice un template de
-							bootstrap para los estilos.
+							Ecommerce desarrollado con JavaScript puro. La aplicación
+							incorpora las funcionalidades, como navegación de productos,
+							carrito de compras, login y registro.
 						</Card.Text>
 					</Card.Body>
 				</Card>
-
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -96,14 +94,13 @@ export const Proyectos = () => {
 							Studio Chic
 						</Card.Title>
 						<Card.Text>
-							Es un ecommerce hecho con React.js, Vite y Firebase (Auth,
-							Firebase). Como framework de estilo utilice React-bootstrap.
+							Ecommerce hecho con React.js, Vite y Firebase (Auth, Firebase).
+							Como framework de estilo utilice React-bootstrap.
 						</Card.Text>
 					</Card.Body>
 				</Card>
 			</div>
-
-			<div className="cards" id="card-proyectos">
+			<div className="cards tarjeta-proyecto" id="card-proyectos">
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -120,12 +117,13 @@ export const Proyectos = () => {
 						></img>
 						<Card.Title className="card-titulo">Porfolio Personal</Card.Title>
 						<Card.Text>
-							Este proyecto se realizo con React.js, Vite, Bootstrap React,
-							Sweet Alert2, React-icon y animates.css.
+							Este proyecto se realizó utilizando React.js, Vite, Bootstrap
+							React, Sweet Alert2, React-icon, animates.css y email.js. Estas
+							tecnologías nos permitieron crear una aplicación frontend
+							atractiva
 						</Card.Text>
 					</Card.Body>
 				</Card>
-
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -142,12 +140,12 @@ export const Proyectos = () => {
 						></img>
 						<Card.Title className="card-titulo">Juego Dino Chrome</Card.Title>
 						<Card.Text>
-							Este proyecto se realizo con javascript puro. El juego consiste en
-							ayudar al dinosaurio a saltar y evitar obstáculos.
+							Este emocionante proyecto fue desarrollado completamente con
+							JavaScript puro. El juego tiene como objetivo ayudar al dinosaurio
+							a saltar y evitar obstáculos.
 						</Card.Text>
 					</Card.Body>
 				</Card>
-
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
@@ -164,13 +162,13 @@ export const Proyectos = () => {
 						></img>
 						<Card.Title className="card-titulo">Clon de Instagram</Card.Title>
 						<Card.Text>
-							En este proyecto esta realizado con React.js, Vite y Firebase
-							(Auth, Firebase, Firestore). El proyecto es Responsive.
+							En este proyecto, utilizamos React.js, Vite y Firebase (Auth,
+							Firebase, Firestore) para crear una aplicación responsive y
+							funcional.
 						</Card.Text>
 					</Card.Body>
 				</Card>
 			</div>
-
 			<div className="cards" id="card-proyectos">
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
@@ -197,21 +195,46 @@ export const Proyectos = () => {
 				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
+							<a href="https://shopping-list-chi-six.vercel.app/">Web</a>
+							<a href="https://github.com/Andrea-Laurino/ShoppingList">
+								GitHub
+							</a>
+						</div>
+						<img
+							style={{ height: '15rem' }}
+							src="/images/Proyectos/Shopping-List.png"
+							className="card-img-top"
+							alt="Shopping List"
+						></img>
+						<Card.Title className="card-titulo">Shopping List</Card.Title>
+						<Card.Text>
+							La app esta hecha con TypeScript y Angular 11: es una herramienta
+							simple que permite a los usuarios administrar una lista de
+							compras. Tiene aplicado un backend muy sencillo. De querer
+							utilizarla se debe levantar localmente el servidor.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+					<Card.Body>
+						<div className="enlaces">
 							<a href="#">Web</a>
 							<a href="https://github.com/Andrea-Laurino/Coderhouse-Backend-55535">
 								GitHub
 							</a>
 						</div>
 						<img
-							style={{ height: '15rem', width: '15rem' }}
+							style={{ height: '15rem' }}
 							src="/images/Proyectos/proximamente.jpg"
 							className="card-img-top"
 							alt="Clon de Instagram"
 						></img>
 						<Card.Title className="card-titulo">Proximamente</Card.Title>
 						<Card.Text>
-							Este sera el proyecto final de mi curso de Backend que estoy
-							realizando en este momento y finalizo en el mes de Diciembre.
+							Estoy emocionada por el proyecto final de mi curso de Backend, que
+							me encuentro cursando y que culminará a fin de año, el proyectos
+							es un ecommerce completo con su base de datos, gestion de usuarios
+							y carrito de compras.
 						</Card.Text>
 					</Card.Body>
 				</Card>

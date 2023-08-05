@@ -10,10 +10,10 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	margin-top: 320rem;
 	width: 100%;
 	height: 80vh;
-	padding-bottom: 151rem;
+	/* margin-top: 320rem;
+	padding-bottom: 151rem; */
 }
 
 section .titulo-proyectos {
@@ -95,26 +95,38 @@ p.card-text {
 }
 
 /* Responsive */
-
-@media (max-width: 1024px) {
+/* media queries celular */
+@media (max-width: 767px) {
 	#proyectos {
-		margin-top: 334.7rem;
-		padding-bottom: 198rem;
+		margin-top: 714rem;
+		padding-bottom: 394rem;
 	}
-
-	section .titulo-proyectos {
-		margin-bottom: 5rem;
-		margin-top: 15rem;
-	}
-	#proyectos .cards img {
-		width: 246px;
+	.titulo-proyectos h2 {
+		margin-top: 5rem;
 	}
 	#card-proyectos {
-		height: 500px;
+		height: 1100px;
+	}
+	.tarjeta-proyecto {
+		height: 1300px !important;
+	}
+	#proyectos div.card {
+		margin: 100px 0px;
+		width: 30rem !important;
+		height: 20rem !important;
+	}
+	#proyectos div.card img {
+		width: 200px !important;
+		height: 100px !important;
+	}
+	div.enlaces {
+		margin-top: 5rem;
+		margin-left: 4rem;
 	}
 }
 
-@media (max-width: 768px) {
+/* media queries tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
 	#proyectos {
 		margin-top: 451rem;
 		padding-bottom: 228rem;
@@ -138,30 +150,21 @@ p.card-text {
 	}
 }
 
-@media (max-width: 425px) {
+/* media queries desktop */
+@media (min-width: 1024px) {
 	#proyectos {
-		margin-top: 714rem;
-		padding-bottom: 394rem;
+		margin-top: 400rem;
+		padding-bottom: 243rem;
 	}
-	.titulo-proyectos h2 {
-		margin-top: 5rem;
+
+	section .titulo-proyectos {
+		margin-bottom: 5rem;
+		margin-top: 15rem;
+	}
+	#proyectos .cards img {
+		width: 246px;
 	}
 	#card-proyectos {
-		height: 1100px;
-	}
-	#proyectos div.card {
-		margin: 15rem 0rem;
-		width: 30rem !important;
-		height: 15rem !important;
-	}
-
-	#proyectos div.card img {
-		width: 200px !important;
-		height: 100px !important;
-	}
-
-	div.enlaces {
-		margin-top: 5rem;
-		margin-left: 4rem;
+		height: 500px;
 	}
 }

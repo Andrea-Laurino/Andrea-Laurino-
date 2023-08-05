@@ -18,7 +18,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	margin-top: 647.5rem;
 	width: 100%;
 	height: 80vh;
 	padding-bottom: 100rem;
@@ -189,30 +188,33 @@ section .title-contacto {
 }
 
 /* Responsive */
-
-@media (max-width: 1024px) {
+/* media queries celular */
+@media (max-width: 767px) {
 	#contacto {
-		margin-top: 703rem;
+		margin-top: 1170rem;
+		padding-bottom: 110rem;
+	}
+
+	/* media queries tablet */
+	@media (min-width: 768px) and (max-width: 1023px) {
+		#contacto {
+			margin-top: 839rem;
+			padding-bottom: 110rem;
+		}
+		.title-contacto h2 {
+			margin-top: 20rem;
+		}
+	}
+}
+
+/* media queries desktop */
+@media (min-width: 1024px) {
+	#contacto {
+		margin-top: 780rem;
 	}
 
 	.formulario {
 		width: 80%;
-	}
-}
-
-@media (max-width: 768px) {
-	#contacto {
-		margin-top: 839rem;
-		padding-bottom: 110rem;
-	}
-	.title-contacto h2 {
-		margin-top: 20rem;
-	}
-}
-@media (max-width: 425px) {
-	#contacto {
-		margin-top: 1183rem;
-		padding-bottom: 120rem;
 	}
 }
 

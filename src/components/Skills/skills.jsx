@@ -11,40 +11,45 @@ export const Skills = () => {
 				<h2>SKILLS</h2>
 			</div>
 
-			<div className="cards">
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+			<div className="cards" style={{ height: '20rem' }}>
+				{/* html */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\html5.png"
+							src="\images\skills\html5.png"
 							className="card-img-top"
 							alt="html5"
 						></img>
 						<Card.Title className="card-titulo">HTML5</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* css */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
-						<img src="\images\css.png" className="card-img-top" alt="css"></img>
+						<img
+							src="\images\skills\css.png"
+							className="card-img-top"
+							alt="css"
+						></img>
 						<Card.Title className="card-titulo">CSS</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* bootstrap */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\bootstrap.png"
+							src="\images\skills\bootstrap.png"
 							className="card-img-top"
 							alt="bootstrap"
 						></img>
 						<Card.Title className="card-titulo">BOOTSTRAP</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* js */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\javascript.png"
+							src="\images\skills\javascript.png"
 							className="card-img-top"
 							alt="javascript"
 						></img>
@@ -53,40 +58,45 @@ export const Skills = () => {
 				</Card>
 			</div>
 
-			<div className="cards">
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+			<div className="cards" style={{ height: '20rem' }}>
+				{/* react */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\react.png"
+							src="\images\skills\react.png"
 							className="card-img-top"
 							alt="react"
 						></img>
 						<Card.Title className="card-titulo">REACT</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* material ui */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\material-ui.png"
+							src="\images\skills\material-ui.png"
 							className="card-img-top"
 							alt="Material UI"
 						></img>
 						<Card.Title className="card-titulo">MATERIAL-UI</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* git */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
-						<img src="\images\git.png" className="card-img-top" alt="git"></img>
+						<img
+							src="\images\skills\git.png"
+							className="card-img-top"
+							alt="git"
+						></img>
 						<Card.Title className="card-titulo">GIT</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* github */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\github.png"
+							src="\images\skills\github.png"
 							className="card-img-top"
 							alt="github"
 						></img>
@@ -95,48 +105,84 @@ export const Skills = () => {
 				</Card>
 			</div>
 
-			<div className="cards">
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+			<div className="cards" style={{ height: '20rem' }}>
+				{/* ts */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\visual-studio-code.png"
+							src="\images\skills\ts.png"
+							className="card-img-top"
+							alt="Tipescript"
+						></img>
+						<Card.Title className="card-titulo">TYPESCRIPT</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* angular */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\angular.png"
+							className="card-img-top"
+							alt="Angular 11"
+						></img>
+						<Card.Title className="card-titulo">ANGULAR</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* Node.js */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="/images/skills/node.png"
+							className="card-img-top"
+							alt="Node.js"
+						></img>
+						<Card.Title className="card-titulo">NODE.JS</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* MySQL */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\MySQL.png"
+							className="card-img-top"
+							alt="MySQL"
+						></img>
+						<Card.Title className="card-titulo">MySQL</Card.Title>
+					</Card.Body>
+				</Card>
+			</div>
+			<div className="cards" style={{ height: '20rem' }}>
+				{/* visual */}
+				<Card style={{ width: '16rem', height: '17rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\visual-studio-code.png"
 							className="card-img-top"
 							alt="Visual studio code"
 						></img>
-						<Card.Title className="card-titulo">VISUAL STUDIO</Card.Title>
+						<Card.Title className="card-titulo">VISUAL STUDIO CODE</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* chakra */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\chakraUI.png"
+							src="\images\skills\chakraUI.png"
 							className="card-img-top"
 							alt="Chakra UI"
 						></img>
 						<Card.Title className="card-titulo">CHAKRA-UI</Card.Title>
 					</Card.Body>
 				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
+				{/* vercel */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="/images/vercel.png"
+							src="/images/skills/vercel.png"
 							className="card-img-top"
 							alt="Vercel"
 						></img>
 						<Card.Title className="card-titulo">VERCEL</Card.Title>
-					</Card.Body>
-				</Card>
-
-				<Card style={{ width: '19rem', height: '19rem', border: 'none' }}>
-					<Card.Body>
-						<img
-							src="\images\sass.png"
-							className="card-img-top"
-							alt="sass"
-						></img>
-						<Card.Title className="card-titulo">SASS</Card.Title>
 					</Card.Body>
 				</Card>
 			</div>
