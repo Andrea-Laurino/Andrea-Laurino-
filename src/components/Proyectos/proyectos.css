@@ -153,8 +153,8 @@ p.card-text {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#proyectos {
-		margin-top: 400rem;
-		padding-bottom: 243rem;
+		margin-top: 424rem;
+		padding-bottom: 309.5rem;
 	}
 
 	section .titulo-proyectos {
@@ -165,6 +165,6 @@ p.card-text {
 		width: 246px;
 	}
 	#card-proyectos {
-		height: 500px;
+		height: 900px;
 	}
 }

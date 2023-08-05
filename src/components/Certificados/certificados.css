@@ -59,7 +59,7 @@ section .titulo-certificados {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#certificados {
-		margin-top: 626rem;
-		padding-bottom: 209rem;
+		margin-top: 684rem;
+		padding-bottom: 210.6rem;
 	}
 }
