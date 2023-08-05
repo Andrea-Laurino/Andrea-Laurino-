@@ -25,7 +25,9 @@ section .titulo-sobre-mi {
 
 section div.cards {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
+	flex-wrap: wrap;
 	text-align: center;
 	justify-content: center;
 }

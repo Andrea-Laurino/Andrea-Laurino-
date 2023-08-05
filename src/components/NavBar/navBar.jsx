@@ -61,13 +61,16 @@ export const NavBar = () => {
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
+
+					<div>
+						<img
+							className="logoAndrea"
+							src="/images/logoAndrea.png"
+							style={{ width: '9rem', height: '5rem' }}
+							alt="Logo Andrea"
+						/>
+					</div>
 				</Container>
-				<img
-					className="logoAndrea"
-					src="/images/logoAndrea-removebg-preview.png"
-					style={{ width: '9rem', height: '5rem' }}
-					alt="Logo Andrea"
-				/>
 			</Navbar>
 		</section>
 	);

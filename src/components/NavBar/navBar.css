@@ -128,8 +128,11 @@ span.navbar-toggler-icon {
 	.switch {
 		margin-top: 30px;
 	}
+	.logoAndrea {
+		margin-right: 0;
+	}
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	div.me-auto.navbar-nav {
 		gap: 31px;
 	}

@@ -98,7 +98,7 @@ p.card-text {
 /* media queries celular */
 @media (max-width: 767px) {
 	#proyectos {
-		margin-top: 714rem;
+		margin-top: 749rem;
 		padding-bottom: 394rem;
 	}
 	.titulo-proyectos h2 {
@@ -113,7 +113,7 @@ p.card-text {
 	#proyectos div.card {
 		margin: 100px 0px;
 		width: 30rem !important;
-		height: 20rem !important;
+		height: 21rem !important;
 	}
 	#proyectos div.card img {
 		width: 200px !important;

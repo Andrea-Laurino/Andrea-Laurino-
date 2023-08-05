@@ -191,19 +191,18 @@ section .title-contacto {
 /* media queries celular */
 @media (max-width: 767px) {
 	#contacto {
-		margin-top: 1170rem;
+		margin-top: 1180rem;
+		padding-bottom: 100rem;
+	}
+}
+/* media queries tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+	#contacto {
+		margin-top: 839rem;
 		padding-bottom: 110rem;
 	}
-
-	/* media queries tablet */
-	@media (min-width: 768px) and (max-width: 1023px) {
-		#contacto {
-			margin-top: 839rem;
-			padding-bottom: 110rem;
-		}
-		.title-contacto h2 {
-			margin-top: 20rem;
-		}
+	.title-contacto h2 {
+		margin-top: 20rem;
 	}
 }
 

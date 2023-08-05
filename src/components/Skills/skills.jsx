@@ -11,7 +11,7 @@ export const Skills = () => {
 				<h2>SKILLS</h2>
 			</div>
 
-			<div className="cards" style={{ height: '20rem' }}>
+			<div className="cards" style={{ height: '50rem' }} id="habilidades">
 				{/* html */}
 				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
@@ -56,9 +56,7 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">JAVASCRIPT</Card.Title>
 					</Card.Body>
 				</Card>
-			</div>
 
-			<div className="cards" style={{ height: '20rem' }}>
 				{/* react */}
 				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
@@ -103,9 +101,7 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">GITHUB</Card.Title>
 					</Card.Body>
 				</Card>
-			</div>
 
-			<div className="cards" style={{ height: '20rem' }}>
 				{/* ts */}
 				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
@@ -150,8 +146,7 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">MySQL</Card.Title>
 					</Card.Body>
 				</Card>
-			</div>
-			<div className="cards" style={{ height: '20rem' }}>
+
 				{/* visual */}
 				<Card style={{ width: '16rem', height: '17rem', border: 'none' }}>
 					<Card.Body>

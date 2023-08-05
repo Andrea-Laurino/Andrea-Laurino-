@@ -74,10 +74,14 @@ section .titulo-skills {
 
 @media (max-width: 425px) {
 	#skills {
-		margin-top: 355.5rem;
-		padding-bottom: 319rem;
+		margin-top: 373rem;
+		padding-bottom: 354rem;
 	}
 	section div.cards {
 		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	#habilidades {
+		height: 300rem !important;
 	}
 }

@@ -39,7 +39,7 @@ section .titulo-certificados {
 /* media queries celular */
 @media (max-width: 767px) {
 	#certificados {
-		margin-top: 1025rem;
+		margin-top: 1060rem;
 		padding-bottom: 228rem;
 	}
 }

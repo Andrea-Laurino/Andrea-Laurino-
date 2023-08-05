@@ -78,7 +78,7 @@ export const Contacto = () => {
 
 			<div className="redes">
 				<a href="https://github.com/Andrea-Laurino">
-					<img src="/images/github.png"></img>
+					<img src="/images/skills/github.png"></img>
 				</a>
 				<a href="https://www.linkedin.com/in/andrea-laurino/">
 					<img src="/images/linkedin.png"></img>
