@@ -22,16 +22,30 @@ export const SobreMi = () => {
 					<Card.Body>
 						<Card.Title className="card-titulo">¿Quien Soy?</Card.Title>
 						<Card.Text className="description-card">
-							Mi nombre es Andrea, tengo 36 años. Desde hace 1 año, he estado
-							estudiando de Programación Web Full Stack. Actualmente, me
-							encuentro cursando el curso de Programación Backend en Coderhouse.
-							Además, complemento mi aprendizaje con cursos gratuitos,
-							centrándome en temas como bases de datos MySQL, TypeScript y
-							Angular. Soy una persona que valora la precisión y la atención a
-							los detalles. Me esfuerzo por entregar soluciones de alta calidad
-							y asegurarme de que mi código sea eficiente. Siempre busco mejorar
-							y optimizar mis soluciones, y aprender de mis errores para crecer
-							como profesional.
+							<Card.Text>
+								¡Hola! Soy Andrea, una apasionada del cambio y la innovación. A
+								mis 37 años, he transformado mi carrera de la salud, donde
+								trabajé como Técnica de Laboratorio, hacia la programación.
+								Actualmente, me encuentro inmersa en mi formación como
+								Desarrolladora Front-End, graduada en Coderhouse.
+							</Card.Text>
+							<Card.Text>
+								Como freelancer, he aplicado mis habilidades en diversos
+								proyectos, pero mi enfoque está en continuar creciendo y
+								colaborar en un entorno de empresa. Estoy constantemente
+								aprendiendo nuevas técnicas, y actualmente, me estoy
+								especializando en "Testing QA Manual". Mi fascinación por la
+								calidad en el desarrollo me impulsa a buscar oportunidades en el
+								área de Front-End o Testing, donde pueda aplicar mis
+								conocimientos de MySQL y explorar frameworks y CSS frameworks.
+							</Card.Text>
+							<Card.Text>
+								Mi objetivo es contribuir activamente al desarrollo de
+								soluciones digitales, aprovechando mi experiencia en salud y mi
+								nueva perspectiva como desarrolladora. Estoy entusiasmada por
+								unirme a un equipo dinámico que valore la calidad y la
+								innovación.
+							</Card.Text>
 						</Card.Text>
 					</Card.Body>
 				</Card>

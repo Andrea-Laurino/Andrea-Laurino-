@@ -11,7 +11,7 @@ export const Proyectos = () => {
 				<h2>PROJECTS </h2>
 			</div>
 			<div className="cards" id="card-proyectos">
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://e-r-translation.vercel.app/">Web</a>
@@ -40,7 +40,7 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://js-44555-andrea-laurino.vercel.app/">Web</a>
@@ -70,7 +70,7 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://react-js-51180-studio-chic.vercel.app/">Web</a>
@@ -101,7 +101,7 @@ export const Proyectos = () => {
 				</Card>
 			</div>
 			<div className="cards tarjeta-proyecto" id="card-proyectos">
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://andrea-laurino.vercel.app/">Web</a>
@@ -124,7 +124,7 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://juego-dino-rex.vercel.app/">Web</a>
@@ -146,7 +146,7 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://clon-de-instagram.vercel.app/">Web</a>
@@ -170,7 +170,7 @@ export const Proyectos = () => {
 				</Card>
 			</div>
 			<div className="cards" id="card-proyectos">
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://clon-de-spotify.vercel.app/">Web</a>
@@ -192,7 +192,7 @@ export const Proyectos = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+				<Card style={{ width: '35rem', height: '45rem', border: 'none' }}>
 					<Card.Body>
 						<div className="enlaces">
 							<a href="https://shopping-list-chi-six.vercel.app/">Web</a>
@@ -212,29 +212,6 @@ export const Proyectos = () => {
 							simple que permite a los usuarios administrar una lista de
 							compras. Tiene aplicado un backend muy sencillo. De querer
 							utilizarla se debe levantar localmente el servidor.
-						</Card.Text>
-					</Card.Body>
-				</Card>
-				<Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
-					<Card.Body>
-						<div className="enlaces">
-							<a href="#">Web</a>
-							<a href="https://github.com/Andrea-Laurino/Coderhouse-Backend-55535">
-								GitHub
-							</a>
-						</div>
-						<img
-							style={{ height: '15rem' }}
-							src="/images/Proyectos/proximamente.jpg"
-							className="card-img-top"
-							alt="Clon de Instagram"
-						></img>
-						<Card.Title className="card-titulo">Proximamente</Card.Title>
-						<Card.Text>
-							Estoy emocionada por el proyecto final de mi curso de Backend, que
-							me encuentro cursando y que culminará a fin de año, el proyectos
-							es un ecommerce completo con su base de datos, gestion de usuarios
-							y carrito de compras.
 						</Card.Text>
 					</Card.Body>
 				</Card>

@@ -61,6 +61,8 @@ button.navbar-toggler {
 	padding: 1rem !important;
 }
 
+/* image */
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -80,7 +82,7 @@ button.navbar-toggler {
 
 .inicio div img {
 	margin-left: 5rem;
-	width: 300px;
+
 	position: relative;
 }
 
@@ -95,44 +97,6 @@ button.navbar-toggler {
 		top: 0;
 	}
 }
-
-/* Responsive */
-/* 
-@media (max-width: 1360px) {
-	.inicio div img {
-		margin-left: 10rem;
-		width: 280px;
-	}
-
-	.hola {
-		font-size: 9rem;
-	}
-
-	.titulo {
-		font-size: 3.5rem;
-	}
-
-	#inicio {
-		padding-top: 30rem;
-	}
-}
-
-@media (max-width: 1200px) {
-	.inicio div img {
-		width: 280px;
-		margin-left: 3rem;
-	}
-
-	.soy,
-	.hola {
-		font-size: 7rem;
-	}
-
-	.titulo {
-		font-size: 3rem;
-		width: 340px;
-	}
-} */
 
 @media (max-width: 1024px) {
 	.inicio div img {

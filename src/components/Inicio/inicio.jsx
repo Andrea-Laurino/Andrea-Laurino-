@@ -14,10 +14,7 @@ export const Inicio = () => {
 					<h3 className="titulo"> Front-End Developer </h3>
 				</div>
 				<div className="img ">
-					<img
-						className="animate__animated animate__pulse animate__infinite"
-						src="/images/Avatar.png"
-					/>
+					<img className="" src="/images/Andrea-Laurino1.png" />
 				</div>
 			</div>
 		</section>
