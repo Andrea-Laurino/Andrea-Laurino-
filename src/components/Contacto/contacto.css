@@ -182,15 +182,24 @@ section .title-contacto {
 /* media queries celular */
 @media (max-width: 767px) {
 	#contacto {
-		margin-top: 1180rem;
-		padding-bottom: 100rem;
+		margin-top: 1140rem;
+		padding-bottom: 1rem;
+	}
+	.formulario input {
+		width: 20rem;
+	}
+	.formulario textarea {
+		width: 20rem;
+	}
+	.redes a {
+		margin-top: 5rem;
+		margin-inline: 1rem;
 	}
 }
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#contacto {
-		margin-top: 915rem;
-		padding-bottom: 110rem;
+		margin-top: 780rem;
 	}
 	.title-contacto h2 {
 		margin-top: 20rem;
@@ -200,7 +209,7 @@ section .title-contacto {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#contacto {
-		margin-top: 504rem;
+		margin-top: 515rem;
 	}
 
 	.formulario {

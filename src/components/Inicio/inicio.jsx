@@ -14,7 +14,7 @@ export const Inicio = () => {
 					<h3 className="titulo"> Front-End Developer </h3>
 				</div>
 				<div className="img ">
-					<img className="" src="/images/Andrea-Laurino1.png" />
+					<img className="" src="/images/Andrea-Laurinoo.png" />
 				</div>
 			</div>
 		</section>

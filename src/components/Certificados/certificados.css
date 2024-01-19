@@ -34,15 +34,15 @@ section .titulo-certificados {
 /* media queries celular */
 @media (max-width: 767px) {
 	#certificados {
-		margin-top: 1060rem;
+		margin-top: 950rem;
 		padding-bottom: 228rem;
 	}
 }
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#certificados {
-		margin-top: 750rem;
-		padding-bottom: 222rem;
+		margin-top: 550rem;
+		padding-bottom: 230rem;
 	}
 	section .titulo-certificados {
 		margin: 10rem 0;
@@ -55,6 +55,6 @@ section .titulo-certificados {
 @media (min-width: 1024px) {
 	#certificados {
 		margin-top: 382rem;
-		padding-bottom: 125rem;
+		padding-bottom: 140rem;
 	}
 }

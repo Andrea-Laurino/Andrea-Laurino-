@@ -86,7 +86,7 @@ p.card-text {
 /* media queries celular */
 @media (max-width: 767px) {
 	#proyectos {
-		margin-top: 749rem;
+		margin-top: 580rem;
 		padding-bottom: 394rem;
 	}
 	.titulo-proyectos h2 {
@@ -116,7 +116,7 @@ p.card-text {
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#proyectos {
-		margin-top: 493rem;
+		margin-top: 263rem;
 		padding-bottom: 292rem;
 	}
 	#card-proyectos {
@@ -141,7 +141,7 @@ p.card-text {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#proyectos {
-		margin-top: 192rem;
+		margin-top: 220rem;
 		padding-bottom: 190rem;
 	}
 

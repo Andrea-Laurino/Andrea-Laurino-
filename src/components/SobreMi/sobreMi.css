@@ -157,7 +157,6 @@ a#cv:hover {
 /* Responsive */
 @media (max-width: 1024px) {
 	#sobre-mi {
-		margin-top: 88.5rem;
 		padding-bottom: 90.5rem;
 	}
 }
@@ -189,15 +188,15 @@ a#cv:hover {
 	#sobre-mi div.card-body,
 	#sobre-mi div.card {
 		width: 25rem !important;
-		height: 90rem !important;
+		height: 170rem !important;
 	}
 	section.sobre-mi {
 		top: 75%;
 		padding-top: 10rem;
 	}
 	#sobre-mi {
-		margin-top: 118rem;
-		padding-bottom: 150rem;
+		margin-top: 0rem;
+		padding-bottom: 225rem;
 	}
 	section .titulo-sobre-mi {
 		margin-top: 20rem;
