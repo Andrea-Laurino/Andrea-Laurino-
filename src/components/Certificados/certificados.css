@@ -1,22 +1,12 @@
-.bg-dark {
-	background-color: #003249b5 !important;
-}
-.bg-light {
-	background-color: #9ad1d4a1 !important;
-}
-
 #certificados {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	width: 100%;
-	height: 80vh;
+	height: 100%;
 }
 
 section .titulo-certificados {
 	text-align: center;
-	margin: 5rem 0;
+	margin: 2rem 0;
 }
 .titulo-certificados h2 {
 	font-size: 5rem;
@@ -26,9 +16,14 @@ section .titulo-certificados {
 }
 
 .figure {
+	/* display: flex !important;
+	flex-direction: row;
+	justify-content: center; */
 	display: flex !important;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+	margin-top: 8rem;
+	flex-wrap: wrap;
 }
 
 .figure-img {
@@ -59,7 +54,7 @@ section .titulo-certificados {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#certificados {
-		margin-top: 684rem;
-		padding-bottom: 210.6rem;
+		margin-top: 382rem;
+		padding-bottom: 125rem;
 	}
 }

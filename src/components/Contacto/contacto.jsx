@@ -86,6 +86,9 @@ export const Contacto = () => {
 				<a href="https://wa.me/5491132160715">
 					<img src="/images/whatsapp.png"></img>
 				</a>
+				<a href="https://t.me/+541132160715">
+					<img src="/images/telegram.png"></img>
+				</a>
 			</div>
 
 			<div className="scrollBtn">
@@ -98,7 +101,7 @@ export const Contacto = () => {
 			</div>
 
 			<div className="footer-contacto">
-				<p>✨2023 | Desarrollado por Andrea Laurino.😄</p>
+				<p>✨2023 | Desarrollado por Andrea Laurino.❤</p>
 			</div>
 		</section>
 	);

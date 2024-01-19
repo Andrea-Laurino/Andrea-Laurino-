@@ -65,9 +65,9 @@ export const NavBar = () => {
 					<div>
 						<img
 							className="logoAndrea"
-							src="/images/logoAndrea.png"
+							src="/images/icon.png"
 							style={{ width: '9rem', height: '5rem' }}
-							alt="Logo Andrea"
+							alt="Icono Code"
 						/>
 					</div>
 				</Container>

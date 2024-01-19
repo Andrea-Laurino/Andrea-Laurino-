@@ -16,24 +16,18 @@ export const Certificados = () => {
 							alt="Desarrollo Web"
 							src="/images/certificados/desarrollo.jpg"
 						/>
-					</Figure>
-					<Figure>
 						<Figure.Image
 							width={500}
 							height={500}
 							alt="JavaScript"
 							src="/images/certificados/JavaScript.jpg"
 						/>
-					</Figure>
-					<Figure>
 						<Figure.Image
 							width={500}
 							height={500}
 							alt="React Js"
 							src="images/certificados/react.jpg"
 						/>
-					</Figure>
-					<Figure>
 						<Figure.Image
 							width={500}
 							height={500}

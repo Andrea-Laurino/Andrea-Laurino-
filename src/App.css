@@ -26,3 +26,7 @@ body {
 	min-height: 100%;
 	flex-direction: column;
 }
+
+.bg-light {
+	background-color: #fafafaf5 !important;
+}

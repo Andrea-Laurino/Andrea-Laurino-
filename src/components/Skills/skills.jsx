@@ -34,17 +34,6 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">CSS</Card.Title>
 					</Card.Body>
 				</Card>
-				{/* bootstrap */}
-				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
-					<Card.Body>
-						<img
-							src="\images\skills\bootstrap.png"
-							className="card-img-top"
-							alt="bootstrap"
-						></img>
-						<Card.Title className="card-titulo">BOOTSTRAP</Card.Title>
-					</Card.Body>
-				</Card>
 				{/* js */}
 				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
@@ -66,17 +55,6 @@ export const Skills = () => {
 							alt="react"
 						></img>
 						<Card.Title className="card-titulo">REACT</Card.Title>
-					</Card.Body>
-				</Card>
-				{/* material ui */}
-				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
-					<Card.Body>
-						<img
-							src="\images\skills\material-ui.png"
-							className="card-img-top"
-							alt="Material UI"
-						></img>
-						<Card.Title className="card-titulo">MATERIAL-UI</Card.Title>
 					</Card.Body>
 				</Card>
 				{/* git */}
@@ -101,29 +79,6 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">GITHUB</Card.Title>
 					</Card.Body>
 				</Card>
-
-				{/* ts */}
-				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
-					<Card.Body>
-						<img
-							src="\images\skills\ts.png"
-							className="card-img-top"
-							alt="Tipescript"
-						></img>
-						<Card.Title className="card-titulo">TYPESCRIPT</Card.Title>
-					</Card.Body>
-				</Card>
-				{/* angular */}
-				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
-					<Card.Body>
-						<img
-							src="\images\skills\angular.png"
-							className="card-img-top"
-							alt="Angular 11"
-						></img>
-						<Card.Title className="card-titulo">ANGULAR</Card.Title>
-					</Card.Body>
-				</Card>
 				{/* Node.js */}
 				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
 					<Card.Body>
@@ -146,16 +101,60 @@ export const Skills = () => {
 						<Card.Title className="card-titulo">MySQL</Card.Title>
 					</Card.Body>
 				</Card>
+				{/* Firebase */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\Firebase.png"
+							className="card-img-top"
+							alt="MySQL"
+						></img>
+						<Card.Title className="card-titulo">Firebase</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* MongoDB */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\MongoDB.png"
+							className="card-img-top"
+							alt="MySQL"
+						></img>
+						<Card.Title className="card-titulo">MongoDB</Card.Title>
+					</Card.Body>
+				</Card>
 
-				{/* visual */}
+				{/* bootstrap */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\bootstrap.png"
+							className="card-img-top"
+							alt="bootstrap"
+						></img>
+						<Card.Title className="card-titulo">BOOTSTRAP</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* Tailwind */}
 				<Card style={{ width: '16rem', height: '17rem', border: 'none' }}>
 					<Card.Body>
 						<img
-							src="\images\skills\visual-studio-code.png"
+							src="\images\skills\tailwindCSS.png"
 							className="card-img-top"
 							alt="Visual studio code"
 						></img>
-						<Card.Title className="card-titulo">VISUAL STUDIO CODE</Card.Title>
+						<Card.Title className="card-titulo">Tailwind CSS</Card.Title>
+					</Card.Body>
+				</Card>
+				{/* material ui */}
+				<Card style={{ width: '16rem', height: '16rem', border: 'none' }}>
+					<Card.Body>
+						<img
+							src="\images\skills\material-ui.png"
+							className="card-img-top"
+							alt="Material UI"
+						></img>
+						<Card.Title className="card-titulo">MATERIAL-UI</Card.Title>
 					</Card.Body>
 				</Card>
 				{/* chakra */}
