@@ -180,9 +180,16 @@ section .title-contacto {
 
 /* Responsive */
 /* media queries celular */
+@media (max-width: 425px) {
+	#contacto {
+		margin-top: 1160rem !important;
+		padding-bottom: 1rem !important;
+	}
+}
+
 @media (max-width: 767px) {
 	#contacto {
-		margin-top: 1140rem;
+		margin-top: 890rem;
 		padding-bottom: 1rem;
 	}
 	.formulario input {
@@ -199,7 +206,7 @@ section .title-contacto {
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#contacto {
-		margin-top: 780rem;
+		margin-top: 665rem;
 	}
 	.title-contacto h2 {
 		margin-top: 20rem;

@@ -52,7 +52,7 @@ export const Contacto = () => {
 	return (
 		<section className={darkMode ? 'dark' : 'light'} id="contacto">
 			<div className="title-contacto">
-				<h2>CONTACT</h2>
+				<h2>CONTACTO</h2>
 			</div>
 
 			<div id="formulario">

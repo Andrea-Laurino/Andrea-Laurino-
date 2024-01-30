@@ -42,17 +42,16 @@ section .titulo-skills {
 
 /* Responsive */
 
-/* media queries desktop */
-@media (min-width: 1024px) {
-	s #skills {
-		margin-top: 263rem;
-		padding-bottom: 130rem;
+@media (max-width: 1024px) {
+	#skills {
+		margin-top: 90rem;
+		padding-bottom: 120rem;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	#skills {
-		margin-top: 263rem;
+		margin-top: 133rem;
 		padding-bottom: 164rem;
 	}
 
@@ -63,7 +62,7 @@ section .titulo-skills {
 
 @media (max-width: 425px) {
 	#skills {
-		margin-top: 226rem;
+		margin-top: 225rem;
 		padding-bottom: 354rem;
 	}
 	section div.cards {

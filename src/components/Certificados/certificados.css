@@ -32,16 +32,23 @@ section .titulo-certificados {
 
 /* Responsive */
 /* media queries celular */
+@media (max-width: 425px) {
+	#certificados {
+		margin-top: 970rem !important;
+		padding-bottom: 200rem !important;
+	}
+}
+
 @media (max-width: 767px) {
 	#certificados {
-		margin-top: 950rem;
+		margin-top: 670rem;
 		padding-bottom: 228rem;
 	}
 }
 /* media queries tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 	#certificados {
-		margin-top: 550rem;
+		margin-top: 440rem;
 		padding-bottom: 230rem;
 	}
 	section .titulo-certificados {
@@ -54,7 +61,7 @@ section .titulo-certificados {
 /* media queries desktop */
 @media (min-width: 1024px) {
 	#certificados {
-		margin-top: 382rem;
-		padding-bottom: 140rem;
+		margin-top: 370rem;
+		padding-bottom: 145em;
 	}
 }

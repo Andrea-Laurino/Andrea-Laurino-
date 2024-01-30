@@ -8,7 +8,7 @@ export const Certificados = () => {
 		<>
 			<section className={darkMode ? 'bg-dark' : 'bg-light'} id="certificados">
 				<div className="titulo-certificados">
-					<h2>CERTIFICATES</h2>
+					<h2>CERTIFICADOS</h2>
 					<Figure>
 						<Figure.Image
 							width={500}

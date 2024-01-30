@@ -176,11 +176,10 @@ a#cv:hover {
 		margin: 5rem 0rem;
 	}
 	#sobre-mi {
-		margin-top: 110.5rem;
-		padding-bottom: 135rem;
+		padding-bottom: 131rem;
 	}
 	section .titulo-sobre-mi {
-		margin-top: 20rem;
+		margin-top: 7rem;
 	}
 }
 
@@ -194,6 +193,7 @@ a#cv:hover {
 		top: 75%;
 		padding-top: 10rem;
 	}
+
 	#sobre-mi {
 		margin-top: 0rem;
 		padding-bottom: 225rem;

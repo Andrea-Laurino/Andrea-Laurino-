@@ -8,7 +8,7 @@ export const SobreMi = () => {
 	return (
 		<section className={darkMode ? 'bg-dark' : 'bg-light'} id="sobre-mi">
 			<div className="titulo-sobre-mi">
-				<h2>About Me</h2>
+				<h2>SOBRE MI</h2>
 			</div>
 
 			<div className="cv">

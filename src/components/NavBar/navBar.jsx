@@ -14,62 +14,67 @@ export const NavBar = () => {
 	return (
 		<section id="nav-bar" className={darkMode ? 'dark' : 'light'}>
 			<Navbar expand="lg" className="bg-body-tertiary" expanded={expanded}>
-				<div className="switch">
-					<Form>
-						<Form.Check
-							type="switch"
-							id="custom-switch"
-							label={
-								<>
-									{darkMode ? (
-										<FaMoon className="icon-moon" />
-									) : (
-										<FaSun className="icon-sun" />
-									)}
-								</>
-							}
-							className="custom-form-check"
-							checked={darkMode}
-							onChange={toggleDarkMode}
-						/>
-					</Form>
-				</div>
-				<Container>
-					<Navbar.Toggle
-						aria-controls="basic-navbar-nav"
-						onClick={() => setExpanded(expanded ? false : 'expanded')}
-					/>
+				<Container fluid>
+					<Container>
+						<div className="switch">
+							<Form>
+								<Form.Check
+									type="switch"
+									id="custom-switch"
+									label={
+										<>
+											{darkMode ? (
+												<FaMoon className="icon-moon" />
+											) : (
+												<FaSun className="icon-sun" />
+											)}
+										</>
+									}
+									className="custom-form-check"
+									checked={darkMode}
+									onChange={toggleDarkMode}
+								/>
+							</Form>
+						</div>
+						<div>
+							<Navbar.Toggle
+								aria-controls="basic-navbar-nav"
+								onClick={() => setExpanded(expanded ? false : 'expanded')}
+							/>
+						</div>
+					</Container>
+
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto">
 							<Nav.Link onClick={() => setExpanded(false)} href="#inicio">
-								Home
+								Inicio
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#sobre-mi">
-								About Me
+								Sobre Mi
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#skills">
 								Skills
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#proyectos">
-								Projects
+								Proyectos
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#certificados">
-								Certificates
+								Certificados
 							</Nav.Link>
 							<Nav.Link onClick={() => setExpanded(false)} href="#contacto">
-								Contact
+								Contacto
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 
-					<div>
+					{/* <div>
 						<img
 							className="logoAndrea"
 							src="/images/icon.png"
 							style={{ width: '9rem', height: '5rem' }}
 							alt="Icono Code"
-						/>
-					</div>
+						/> 
+					</div>*/}
 				</Container>
 			</Navbar>
 		</section>
